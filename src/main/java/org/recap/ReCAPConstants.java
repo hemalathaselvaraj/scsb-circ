@@ -327,6 +327,11 @@ public final class ReCAPConstants {
     public static final String DEACCESSION_ROLLBACK_NOTES = " Hence, the transaction of deaccessioning item is rolled back.";
 
 
+    public static final String REQUEST_DATA_LOAD_DATE_FORMAT = "dd/MM/yy HH:mm";
+    public static final String  REQUEST_DATA_LOAD_CREATED_BY= "LAS";
+    public static final String REQUEST_DATA_LOAD_REQUEST_TYPE = "PHY";
+
+
     private ReCAPConstants() {}
 
     public static final List getGFAStatusAvailableList() {
